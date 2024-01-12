@@ -99,30 +99,7 @@ int main()
     return 0;
 }
 */
-/*
 
-#include <stdio.h>
-#include <string.h>
-                                           //bbak buna
- int main ()
-{
-   char a[]="5%af8&fg/";
-   char b[15];
-   printf("öncesi:%s\n",a);
-   int uzunluk=strlen(a),n=0;
-   for(int i=0;i<uzunluk;i++)
-   {
-      if( a[i]>=97 && a[i] <=122)
-      {
-         b[n]=a[i];
-         n++;
-      }
-      b[n]='\0';
-   }
-   printf("%s",b[n]);
-
-}
-*/
 #include <stdio.h>
 
 void ekle(int eleman,int dizi[],int boyut)
